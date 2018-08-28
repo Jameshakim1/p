@@ -271,9 +271,9 @@ def handle_text_message(event):
 	elif text == '/about':
 		line_bot_api.reply_message(
 				event.reply_token,
-				TextSendMessage("Hello, my name is Aditmadzs\n"
+				TextSendMessage("Hello, my name is PHIE\n"
 								"Nice to meet you... \n"
-								"source code: https://github.com/Aditmadzs"))
+								"source code: https://github.com/PHIEZUKE"))
 	
 	elif text == '/cmd':
 		line_bot_api.reply_message(
@@ -292,7 +292,7 @@ def handle_text_message(event):
 		line_bot_api.reply_message(
 				event.reply_token,
 				TextSendMessage("Language for translation see here \n"
-								"https://github.com/Aditmadzs/oalinebot/blob/master/Lang.txt"))
+								"https://github.com/PHIEZUKE/PHP/blob/master/Lang.txt"))
 	
 	elif text == '/test':
 		line_bot_api.reply_message(
@@ -308,7 +308,7 @@ def handle_text_message(event):
 	elif text == '/ig':
 		line_bot_api.reply_message(
 				event.reply_token,
-				TextSendMessage("https://www.instagram.com/aditmadzs1"))
+				TextSendMessage("https://www.instagram.com/phie_cobain"))
 	
 	elif text == '/track':
 		line_bot_api.reply_message(
