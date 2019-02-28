@@ -4,7 +4,6 @@ import sys
 import tempfile
 from argparse import ArgumentParser
 from urllib.parse import quote
-from urbandictionary_top import udtop
 from googletrans import Translator
 import requests
 import wikipedia
